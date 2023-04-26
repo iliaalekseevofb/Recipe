@@ -10,10 +10,11 @@ export const api = createApi({
     baseUrl: RECIPES_API_BASE_URL,
   }),
   endpoints: builder => ({
-    getRecipes: builder.query<RecipeItem[], null>({
-      query: () => '/?_sort=id&_order=desc',
-      providesTags: () => [{
-        type: 'Recipe'
+    getRecipes: builder.query<RecipeItem[], string>({
+      query: (searchTerm) => `/?_sort=id&_order=desc&q=${searchTerm}`,
+      providesTags: (result, error, searchTerm) => [{
+        type: 'Recipe',
+        id: searchTerm
       }]
     }),
   })
