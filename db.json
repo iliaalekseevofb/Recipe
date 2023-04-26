@@ -1,0 +1,44 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Apple Frangipan Tart",
+      "image": "https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Corba",
+      "image": "https://www.themealdb.com/images/media/meals/58oia61564916529.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Lasagne",
+      "image": "https://www.themealdb.com/images/media/meals/wtsvxx1511296896.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Koshari",
+      "image": "https://www.themealdb.com/images/media/meals/4er7mj1598733193.jpg"
+    },
+    {
+      "name": "Pancakes",
+      "image": "https://www.themealdb.com/images/media/meals/rwuyqx1511383174.jpg",
+      "id": 5
+    },
+    {
+      "name": "Flamiche",
+      "image": "https://www.themealdb.com/images/media/meals/wssvvs1511785879.jpg",
+      "id": 6
+    },
+    {
+      "name": "Stamppot",
+      "image": "https://www.themealdb.com/images/media/meals/hyarod1565090529.jpg",
+      "id": 7
+    },
+    {
+      "name": "Moussaka",
+      "image": "https://www.themealdb.com/images/media/meals/ctg8jd1585563097.jpg",
+      "id": 8
+    }
+  ]
+}
